@@ -1,0 +1,1 @@
+../../Tesseract/include/leptonica/stack.h

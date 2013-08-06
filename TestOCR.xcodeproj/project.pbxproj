@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4F6D0829C540F3B7E86E23 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6442C35B3A894F23BF9DB1A8 /* libPods.a */; };
 		0E0ECC151583681400116FAE /* UIImage+operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0ECC141583681400116FAE /* UIImage+operation.m */; };
 		0E20426B15824F34009D88F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20426A15824F34009D88F2 /* UIKit.framework */; };
 		0E20426D15824F34009D88F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20426C15824F34009D88F2 /* Foundation.framework */; };
@@ -18,19 +19,17 @@
 		0E20428115824F35009D88F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E20428015824F35009D88F2 /* ViewController.m */; };
 		0E20429015824FF5009D88F2 /* ImageProcessingImplementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E20428D15824FF5009D88F2 /* ImageProcessingImplementation.mm */; };
 		0E20429115824FF5009D88F2 /* ImageProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E20428E15824FF5009D88F2 /* ImageProcessor.cpp */; };
-		0E204296158252F3009D88F2 /* OpenCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E204295158252F3009D88F2 /* OpenCV.framework */; };
 		0E20429815825303009D88F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429715825303009D88F2 /* AVFoundation.framework */; };
 		0E20429A15825308009D88F2 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429915825308009D88F2 /* ImageIO.framework */; };
 		0E20429C15825316009D88F2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429B15825316009D88F2 /* libz.dylib */; };
 		0E20429E1582531F009D88F2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429D1582531F009D88F2 /* CoreVideo.framework */; };
 		0E2042A015825324009D88F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429F15825324009D88F2 /* CoreMedia.framework */; };
 		0E2042A715825613009D88F2 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E2042A615825612009D88F2 /* UIImage+OpenCV.mm */; };
-		0E74048E15825A4E006AE2B4 /* liblept.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E74048C15825A4E006AE2B4 /* liblept.a */; };
-		0E74048F15825A4E006AE2B4 /* libtesseract_all.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E74048D15825A4E006AE2B4 /* libtesseract_all.a */; };
 		0E74049215825A5E006AE2B4 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0E74049115825A5E006AE2B4 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0997D6262A934A0E9CDE4161 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		0E0ECC131583681400116FAE /* UIImage+operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+operation.h"; sourceTree = "<group>"; };
 		0E0ECC141583681400116FAE /* UIImage+operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+operation.m"; sourceTree = "<group>"; };
 		0E20426615824F34009D88F2 /* TestOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +50,6 @@
 		0E20428D15824FF5009D88F2 /* ImageProcessingImplementation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessingImplementation.mm; sourceTree = "<group>"; };
 		0E20428E15824FF5009D88F2 /* ImageProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageProcessor.cpp; sourceTree = "<group>"; };
 		0E20428F15824FF5009D88F2 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
-		0E204295158252F3009D88F2 /* OpenCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenCV.framework; sourceTree = "<group>"; };
 		0E20429715825303009D88F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0E20429915825308009D88F2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		0E20429B15825316009D88F2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -59,50 +57,8 @@
 		0E20429F15825324009D88F2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		0E2042A515825612009D88F2 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		0E2042A615825612009D88F2 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
-		0E74046115825A4E006AE2B4 /* allheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allheaders.h; sourceTree = "<group>"; };
-		0E74046215825A4E006AE2B4 /* alltypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alltypes.h; sourceTree = "<group>"; };
-		0E74046315825A4E006AE2B4 /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
-		0E74046415825A4E006AE2B4 /* arrayaccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arrayaccess.h; sourceTree = "<group>"; };
-		0E74046515825A4E006AE2B4 /* bbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbuffer.h; sourceTree = "<group>"; };
-		0E74046615825A4E006AE2B4 /* bmf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmf.h; sourceTree = "<group>"; };
-		0E74046715825A4E006AE2B4 /* bmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bmp.h; sourceTree = "<group>"; };
-		0E74046815825A4E006AE2B4 /* ccbord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccbord.h; sourceTree = "<group>"; };
-		0E74046915825A4E006AE2B4 /* dewarp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dewarp.h; sourceTree = "<group>"; };
-		0E74046A15825A4E006AE2B4 /* endianness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endianness.h; sourceTree = "<group>"; };
-		0E74046B15825A4E006AE2B4 /* environ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = environ.h; sourceTree = "<group>"; };
-		0E74046C15825A4E006AE2B4 /* freetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freetype.h; sourceTree = "<group>"; };
-		0E74046D15825A4E006AE2B4 /* gplot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gplot.h; sourceTree = "<group>"; };
-		0E74046E15825A4E006AE2B4 /* heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = heap.h; sourceTree = "<group>"; };
-		0E74046F15825A4E006AE2B4 /* imageio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageio.h; sourceTree = "<group>"; };
-		0E74047015825A4E006AE2B4 /* jbclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbclass.h; sourceTree = "<group>"; };
-		0E74047115825A4E006AE2B4 /* leptprotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptprotos.h; sourceTree = "<group>"; };
-		0E74047215825A4E006AE2B4 /* leptwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leptwin.h; sourceTree = "<group>"; };
-		0E74047315825A4E006AE2B4 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
-		0E74047415825A4E006AE2B4 /* morph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morph.h; sourceTree = "<group>"; };
-		0E74047515825A4E006AE2B4 /* pix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pix.h; sourceTree = "<group>"; };
-		0E74047615825A4E006AE2B4 /* ptra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptra.h; sourceTree = "<group>"; };
-		0E74047715825A4E006AE2B4 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
-		0E74047815825A4E006AE2B4 /* readbarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readbarcode.h; sourceTree = "<group>"; };
-		0E74047915825A4E006AE2B4 /* regutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regutils.h; sourceTree = "<group>"; };
-		0E74047A15825A4E006AE2B4 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
-		0E74047B15825A4E006AE2B4 /* sudoku.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sudoku.h; sourceTree = "<group>"; };
-		0E74047C15825A4E006AE2B4 /* watershed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = watershed.h; sourceTree = "<group>"; };
-		0E74047E15825A4E006AE2B4 /* apitypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apitypes.h; sourceTree = "<group>"; };
-		0E74047F15825A4E006AE2B4 /* baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseapi.h; sourceTree = "<group>"; };
-		0E74048015825A4E006AE2B4 /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errcode.h; sourceTree = "<group>"; };
-		0E74048115825A4E006AE2B4 /* genericvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = genericvector.h; sourceTree = "<group>"; };
-		0E74048215825A4E006AE2B4 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
-		0E74048315825A4E006AE2B4 /* host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = host.h; sourceTree = "<group>"; };
-		0E74048415825A4E006AE2B4 /* ndminx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ndminx.h; sourceTree = "<group>"; };
-		0E74048515825A4E006AE2B4 /* ocrclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocrclass.h; sourceTree = "<group>"; };
-		0E74048615825A4E006AE2B4 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
-		0E74048715825A4E006AE2B4 /* publictypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publictypes.h; sourceTree = "<group>"; };
-		0E74048815825A4E006AE2B4 /* tesscallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tesscallback.h; sourceTree = "<group>"; };
-		0E74048915825A4E006AE2B4 /* thresholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thresholder.h; sourceTree = "<group>"; };
-		0E74048A15825A4E006AE2B4 /* unichar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unichar.h; sourceTree = "<group>"; };
-		0E74048C15825A4E006AE2B4 /* liblept.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblept.a; sourceTree = "<group>"; };
-		0E74048D15825A4E006AE2B4 /* libtesseract_all.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtesseract_all.a; sourceTree = "<group>"; };
 		0E74049115825A5E006AE2B4 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		6442C35B3A894F23BF9DB1A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,9 +74,7 @@
 				0E20426B15824F34009D88F2 /* UIKit.framework in Frameworks */,
 				0E20426D15824F34009D88F2 /* Foundation.framework in Frameworks */,
 				0E20426F15824F34009D88F2 /* CoreGraphics.framework in Frameworks */,
-				0E204296158252F3009D88F2 /* OpenCV.framework in Frameworks */,
-				0E74048E15825A4E006AE2B4 /* liblept.a in Frameworks */,
-				0E74048F15825A4E006AE2B4 /* libtesseract_all.a in Frameworks */,
+				0C4F6D0829C540F3B7E86E23 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +87,7 @@
 				0E20427015824F35009D88F2 /* TestOCR */,
 				0E20426915824F34009D88F2 /* Frameworks */,
 				0E20426715824F34009D88F2 /* Products */,
+				0997D6262A934A0E9CDE4161 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,10 +107,10 @@
 				0E20429B15825316009D88F2 /* libz.dylib */,
 				0E20429915825308009D88F2 /* ImageIO.framework */,
 				0E20429715825303009D88F2 /* AVFoundation.framework */,
-				0E204295158252F3009D88F2 /* OpenCV.framework */,
 				0E20426A15824F34009D88F2 /* UIKit.framework */,
 				0E20426C15824F34009D88F2 /* Foundation.framework */,
 				0E20426E15824F34009D88F2 /* CoreGraphics.framework */,
+				6442C35B3A894F23BF9DB1A8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				0E74049115825A5E006AE2B4 /* tessdata */,
-				0E74045E15825A4E006AE2B4 /* dependencies */,
 				0E20427915824F35009D88F2 /* AppDelegate.h */,
 				0E20427A15824F35009D88F2 /* AppDelegate.m */,
 				0E20427C15824F35009D88F2 /* MainStoryboard.storyboard */,
@@ -196,88 +150,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0E74045E15825A4E006AE2B4 /* dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				0E74045F15825A4E006AE2B4 /* include */,
-				0E74048B15825A4E006AE2B4 /* lib */,
-			);
-			path = dependencies;
-			sourceTree = "<group>";
-		};
-		0E74045F15825A4E006AE2B4 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				0E74046015825A4E006AE2B4 /* leptonica */,
-				0E74047D15825A4E006AE2B4 /* tesseract */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		0E74046015825A4E006AE2B4 /* leptonica */ = {
-			isa = PBXGroup;
-			children = (
-				0E74046115825A4E006AE2B4 /* allheaders.h */,
-				0E74046215825A4E006AE2B4 /* alltypes.h */,
-				0E74046315825A4E006AE2B4 /* array.h */,
-				0E74046415825A4E006AE2B4 /* arrayaccess.h */,
-				0E74046515825A4E006AE2B4 /* bbuffer.h */,
-				0E74046615825A4E006AE2B4 /* bmf.h */,
-				0E74046715825A4E006AE2B4 /* bmp.h */,
-				0E74046815825A4E006AE2B4 /* ccbord.h */,
-				0E74046915825A4E006AE2B4 /* dewarp.h */,
-				0E74046A15825A4E006AE2B4 /* endianness.h */,
-				0E74046B15825A4E006AE2B4 /* environ.h */,
-				0E74046C15825A4E006AE2B4 /* freetype.h */,
-				0E74046D15825A4E006AE2B4 /* gplot.h */,
-				0E74046E15825A4E006AE2B4 /* heap.h */,
-				0E74046F15825A4E006AE2B4 /* imageio.h */,
-				0E74047015825A4E006AE2B4 /* jbclass.h */,
-				0E74047115825A4E006AE2B4 /* leptprotos.h */,
-				0E74047215825A4E006AE2B4 /* leptwin.h */,
-				0E74047315825A4E006AE2B4 /* list.h */,
-				0E74047415825A4E006AE2B4 /* morph.h */,
-				0E74047515825A4E006AE2B4 /* pix.h */,
-				0E74047615825A4E006AE2B4 /* ptra.h */,
-				0E74047715825A4E006AE2B4 /* queue.h */,
-				0E74047815825A4E006AE2B4 /* readbarcode.h */,
-				0E74047915825A4E006AE2B4 /* regutils.h */,
-				0E74047A15825A4E006AE2B4 /* stack.h */,
-				0E74047B15825A4E006AE2B4 /* sudoku.h */,
-				0E74047C15825A4E006AE2B4 /* watershed.h */,
-			);
-			path = leptonica;
-			sourceTree = "<group>";
-		};
-		0E74047D15825A4E006AE2B4 /* tesseract */ = {
-			isa = PBXGroup;
-			children = (
-				0E74047E15825A4E006AE2B4 /* apitypes.h */,
-				0E74047F15825A4E006AE2B4 /* baseapi.h */,
-				0E74048015825A4E006AE2B4 /* errcode.h */,
-				0E74048115825A4E006AE2B4 /* genericvector.h */,
-				0E74048215825A4E006AE2B4 /* helpers.h */,
-				0E74048315825A4E006AE2B4 /* host.h */,
-				0E74048415825A4E006AE2B4 /* ndminx.h */,
-				0E74048515825A4E006AE2B4 /* ocrclass.h */,
-				0E74048615825A4E006AE2B4 /* platform.h */,
-				0E74048715825A4E006AE2B4 /* publictypes.h */,
-				0E74048815825A4E006AE2B4 /* tesscallback.h */,
-				0E74048915825A4E006AE2B4 /* thresholder.h */,
-				0E74048A15825A4E006AE2B4 /* unichar.h */,
-			);
-			path = tesseract;
-			sourceTree = "<group>";
-		};
-		0E74048B15825A4E006AE2B4 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				0E74048C15825A4E006AE2B4 /* liblept.a */,
-				0E74048D15825A4E006AE2B4 /* libtesseract_all.a */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E20428415824F35009D88F2 /* Build configuration list for PBXNativeTarget "TestOCR" */;
 			buildPhases = (
+				B676B766E76B4C5F9460B0DD /* Check Pods Manifest.lock */,
 				0E20426215824F34009D88F2 /* Sources */,
 				0E20426315824F34009D88F2 /* Frameworks */,
 				0E20426415824F34009D88F2 /* Resources */,
+				5D4D7A6961374D8AB26D855E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +210,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D4D7A6961374D8AB26D855E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		B676B766E76B4C5F9460B0DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E20426215824F34009D88F2 /* Sources */ = {
@@ -421,6 +326,7 @@
 		};
 		0E20428515824F35009D88F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0997D6262A934A0E9CDE4161 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,10 +335,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "infojobOCR/TestOCR-Prefix.pch";
 				INFOPLIST_FILE = "infojobOCR/TestOCR-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/infojobOCR/dependencies/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = TestOCR;
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +343,7 @@
 		};
 		0E20428615824F35009D88F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0997D6262A934A0E9CDE4161 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,10 +352,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "infojobOCR/TestOCR-Prefix.pch";
 				INFOPLIST_FILE = "infojobOCR/TestOCR-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/infojobOCR/dependencies/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = TestOCR;
 				WRAPPER_EXTENSION = app;
 			};

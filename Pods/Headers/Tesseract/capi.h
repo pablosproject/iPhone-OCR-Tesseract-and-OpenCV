@@ -1,0 +1,1 @@
+../../Tesseract/include/tesseract/capi.h

@@ -1,0 +1,1 @@
+../../Tesseract/include/tesseract/mfcpch.h
