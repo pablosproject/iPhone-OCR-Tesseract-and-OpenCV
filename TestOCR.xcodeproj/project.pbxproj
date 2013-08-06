@@ -26,6 +26,7 @@
 		0E2042A015825324009D88F2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20429F15825324009D88F2 /* CoreMedia.framework */; };
 		0E2042A715825613009D88F2 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E2042A615825612009D88F2 /* UIImage+OpenCV.mm */; };
 		0E74049215825A5E006AE2B4 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 0E74049115825A5E006AE2B4 /* tessdata */; };
+		482C9DB517B138770080E8D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 482C9DB417B138770080E8D8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		0E2042A515825612009D88F2 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		0E2042A615825612009D88F2 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 		0E74049115825A5E006AE2B4 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		482C9DB417B138770080E8D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6442C35B3A894F23BF9DB1A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 		0E20425B15824F34009D88F2 = {
 			isa = PBXGroup;
 			children = (
+				482C9DB417B138770080E8D8 /* Default-568h@2x.png */,
 				0E20427015824F35009D88F2 /* TestOCR */,
 				0E20426915824F34009D88F2 /* Frameworks */,
 				0E20426715824F34009D88F2 /* Products */,
@@ -206,6 +209,7 @@
 				0E20427515824F35009D88F2 /* InfoPlist.strings in Resources */,
 				0E20427E15824F35009D88F2 /* MainStoryboard.storyboard in Resources */,
 				0E74049215825A5E006AE2B4 /* tessdata in Resources */,
+				482C9DB517B138770080E8D8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
