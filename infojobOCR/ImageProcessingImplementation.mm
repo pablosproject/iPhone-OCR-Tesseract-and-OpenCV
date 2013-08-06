@@ -60,7 +60,7 @@
     // init the tesseract engine.
     tesseract::TessBaseAPI *tesseract = new tesseract::TessBaseAPI();
     
-    tesseract->Init([[self pathToLangugeFIle] cStringUsingEncoding:NSUTF8StringEncoding], "spa");
+    tesseract->Init([[self pathToLangugeFIle] cStringUsingEncoding:NSUTF8StringEncoding], "eng");
     
     //Pass the UIIMage to cvmat and pass the sequence of pixel to tesseract
 
