@@ -17,3 +17,6 @@ pablosproject@gmail.com
 @PablosProject
 
 Release under GPL
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/pablosproject/iphone-ocr-tesseract-and-opencv/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
