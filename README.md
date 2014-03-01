@@ -11,6 +11,9 @@ I also build a simple user interface that permit to take a photo or choose one f
 I hope that these can be useful for someone!
 Enjoy!
 
+#Usage
+Download the project and use [CocoaPods](http://cocoapods.org/) to install required libraries, by running `pod install`.
+
 Contact Me
 ===============================
 pablosproject@gmail.com

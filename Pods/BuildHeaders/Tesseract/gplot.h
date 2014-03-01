@@ -1,1 +1,0 @@
-../../Tesseract/include/leptonica/gplot.h

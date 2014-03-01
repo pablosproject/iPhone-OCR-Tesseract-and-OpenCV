@@ -1,1 +1,0 @@
-../../Tesseract/include/tesseract/ndminx.h
