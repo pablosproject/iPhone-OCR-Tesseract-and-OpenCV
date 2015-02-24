@@ -1,6 +1,8 @@
 iPhone-OCR-Tesseract-and-OpenCV
 ===============================
 
+[![Join the chat at https://gitter.im/pablosproject/iPhone-OCR-Tesseract-and-OpenCV](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pablosproject/iPhone-OCR-Tesseract-and-OpenCV?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 This is a sample project created by me (@PablosPoject) and @_AJ_R for academic purpose.
 It use the OpenCV framework and tutorial made by BloodAxe(https://github.com/BloodAxe) and some other utilities class made by Aptogo (https://github.com/aptogo).
